@@ -4,3 +4,5 @@
 /public/wp-content/themes/oceanwp
 /public/wp-content/uploads/.shortpixel-q-1
 /vendor
+/local-config.php
+/production-config.php
