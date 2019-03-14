@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "780f958481a23ef315ea3d51be45ba5c",
+    "content-hash": "a833bf0dbeac4494dbba802e297fd45e",
     "packages": [
         {
             "name": "composer/installers",
@@ -309,6 +309,24 @@
             "homepage": "https://wordpress.org/plugins/events-manager/"
         },
         {
+            "name": "wpackagist-plugin/font-awesome",
+            "version": "4.0.0-rc7",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/font-awesome/",
+                "reference": "tags/4.0.0-rc7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/font-awesome.4.0.0-rc7.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/font-awesome/"
+        },
+        {
             "name": "wpackagist-plugin/shortpixel-image-optimiser",
             "version": "4.12.8",
             "source": {
@@ -364,15 +382,15 @@
         },
         {
             "name": "wpackagist-plugin/wpforms-lite",
-            "version": "1.5.1.1",
+            "version": "1.5.1.3",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wpforms-lite/",
-                "reference": "tags/1.5.1.1"
+                "reference": "tags/1.5.1.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wpforms-lite.1.5.1.1.zip"
+                "url": "https://downloads.wordpress.org/plugin/wpforms-lite.1.5.1.3.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -402,7 +420,9 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "wpackagist-plugin/font-awesome": 5
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {

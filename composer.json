@@ -16,7 +16,8 @@
         "wpackagist-plugin/wp-seopress": "*",
         "wpackagist-plugin/events-manager": "*",
         "wpackagist-plugin/broken-link-checker": "*",
-        "wpackagist-plugin/akismet": "*"
+        "wpackagist-plugin/akismet": "*",
+        "wpackagist-plugin/font-awesome": "4.0.0-rc7"
     },
     "extra": {
         "wordpress-install-dir": "public/wp",
