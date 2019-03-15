@@ -7,9 +7,6 @@
  Version:      0.2.0
 */
 
-h2 {
-  background-color: red !important;
-}
 @-webkit-keyframes cdw-slider {
   0% {
     -webkit-transform: translateX(0%);
