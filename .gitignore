@@ -1,4 +1,6 @@
+/public/.htaccess
 /public/wp
+/public/wp-content/languages
 /public/wp-content/upgrade
 /public/wp-content/plugins
 /public/wp-content/themes/oceanwp
