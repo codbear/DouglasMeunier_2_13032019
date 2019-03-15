@@ -16,28 +16,28 @@ To view this site : [Strasbourg](http://strasbourg.oc.codbear.com)
 
 ### Installation
 
-'''bash
+```bash
 git clone https://github.com/codbear/strasbourg.git
 cd strasbourg
 composer install
 chmod -R 775 *
-'''
+```
 
 Then you need to import the database
 
 ### Configuration
 #### For development environment
 
-'''bash
+```bash
 cp local-config-sample.php local-config.php
 nano local-config.php
-'''
+```
 And set your DB credentials.
 
 #### For production environment
 
-'''bash
+```bash
 cp production-config-sample.php production-config.php
 nano production-config.php
-'''
+```
 And set your DB credentials.
