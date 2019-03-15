@@ -4,5 +4,93 @@
  Author:       Codbear
  Author URI:   https://codbear.com
  Template:     oceanwp
- Version:      0.1.0
+ Version:      0.2.0
 */
+
+h2 {
+  background-color: red !important;
+}
+@-webkit-keyframes cdw-slider {
+  0% {
+    -webkit-transform: translateX(0%);
+  }
+  20% {
+    -webkit-transform: translateX(0%);
+  }
+  25% {
+    -webkit-transform: translateX(-100%);
+  }
+  45% {
+    -webkit-transform: translateX(-100%);
+  }
+  50% {
+    -webkit-transform: translateX(-200%);
+  }
+	70% {
+    -webkit-transform: translateX(-200%);
+  }
+	75% {
+    -webkit-transform: translateX(-300%);
+  }
+	95% {
+    -webkit-transform: translateX(-300%);
+  }
+	100% {
+    -webkit-transform: translateX(-400%);
+  }
+}
+
+@keyframes cdw-slider {
+  0% {
+    transform: translateX(0%);
+  }
+  20% {
+    transform: translateX(0%);
+  }
+	25% {
+    transform: translateX(-100%);
+  }
+  45% {
+    transform: translateX(-100%);
+  }
+	50% {
+    transform: translateX(-200%);
+  }
+	70% {
+    transform: translateX(-200%);
+  }
+  75% {
+    transform: translateX(-300%);
+  }
+	95% {
+    transform: translateX(-300%);
+  }
+  100% {
+    transform: translateX(-400%);
+  }
+}
+
+#cdw-slider {
+  overflow: hidden;
+}
+
+#cdw-slides-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 500%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.cdw-slide {
+  width: 100%;
+  -webkit-animation: cdw-slider 25s infinite ease-in-out;
+          animation: cdw-slider 25s infinite ease-in-out;
+}
+
+.cdw-slide img {
+  width: 100%;
+  height: 100%;
+}
