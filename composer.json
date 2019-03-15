@@ -3,12 +3,17 @@
         {
             "type": "composer",
             "url": "https://wpackagist.org"
+        },
+        {
+            "type": "composer",
+            "url": "https://wp-languages.github.io"
         }
     ],
     "require": {
         "php": ">=7.3",
         "composer/installers": "1.*",
         "johnpbloch/wordpress": "5.1.*",
+        "koodimonni-language/fr_fr": "*",
         "wpackagist-theme/oceanwp": "1.6.4",
         "wpackagist-plugin/wpforms-lite": "*",
         "wpackagist-plugin/wp-super-cache": "*",
@@ -25,6 +30,11 @@
             "public/wp-content/mu-plugins/{$name}/": ["type:wordpress-muplugin"],
             "public/wp-content/plugins/{$name}/": ["type:wordpress-plugin"],
             "public/wp-content/themes/{$name}/": ["type:wordpress-theme"]
-        }
+        },
+        "dropin-paths": {
+            "public/wp-content/languages/": ["vendor:koodimonni-language"],
+            "public/wp-content/languages/plugins/": ["vendor:koodimonni-plugin-language"],
+            "public/wp-content/languages/themes/": ["vendor:koodimonni-theme-language"]
+      }
     }
 }
