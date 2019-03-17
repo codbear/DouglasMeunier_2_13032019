@@ -95,3 +95,15 @@
 .event-table-image img {
   margin: 5% 0 10% 0;
 }
+
+.event-more-btn {
+  background-color: #31455D;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+.event-more-btn:hover {
+  background-color: #597EA9;
+  color: #fff;
+}
