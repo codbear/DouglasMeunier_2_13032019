@@ -107,3 +107,11 @@
   background-color: #597EA9;
   color: #fff;
 }
+
+a {
+  border: 3px solid rgba(0,0,0,0);
+}
+
+a:focus {
+  border-color: red;
+}
