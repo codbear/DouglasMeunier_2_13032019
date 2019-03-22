@@ -256,10 +256,10 @@
         },
         {
             "name": "koodimonni-language/fr_fr",
-            "version": "5.1",
+            "version": "5.1.1",
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/translation/core/5.1/fr_FR.zip"
+                "url": "https://downloads.wordpress.org/translation/core/5.1.1/fr_FR.zip"
             },
             "require": {
                 "koodimonni-plugin-language/akismet-fr_fr": "*",
@@ -325,10 +325,10 @@
         },
         {
             "name": "koodimonni-plugin-language/woocommerce-fr_fr",
-            "version": "3.5.6",
+            "version": "3.5.7",
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/translation/plugin/woocommerce/3.5.6/fr_FR.zip"
+                "url": "https://downloads.wordpress.org/translation/plugin/woocommerce/3.5.7/fr_FR.zip"
             },
             "require": {
                 "koodimonni/composer-dropin-installer": ">=0.2.3"
@@ -557,15 +557,15 @@
         },
         {
             "name": "wpackagist-plugin/broken-link-checker",
-            "version": "1.11.5",
+            "version": "1.11.8",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/broken-link-checker/",
-                "reference": "tags/1.11.5"
+                "reference": "tags/1.11.8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/broken-link-checker.1.11.5.zip"
+                "url": "https://downloads.wordpress.org/plugin/broken-link-checker.1.11.8.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -629,15 +629,15 @@
         },
         {
             "name": "wpackagist-plugin/wp-seopress",
-            "version": "3.3.12",
+            "version": "3.3.13.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wp-seopress/",
-                "reference": "tags/3.3.12"
+                "reference": "tags/3.3.13.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-seopress.3.3.12.zip"
+                "url": "https://downloads.wordpress.org/plugin/wp-seopress.3.3.13.1.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
