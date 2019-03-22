@@ -127,3 +127,7 @@ a:focus {
   background-color: #31455d;
   border-radius: 15px;
 }
+
+#site-header {
+  position: fixed;
+}
