@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "60d0ea61dff50f691858efaf6e799298",
+    "content-hash": "e19adeeaa14e189666da9e28c2384308",
     "packages": [
         {
             "name": "composer/installers",
@@ -593,15 +593,15 @@
         },
         {
             "name": "wpackagist-plugin/font-awesome",
-            "version": "4.0.0-rc7",
+            "version": "4.0.0-rc8",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/font-awesome/",
-                "reference": "tags/4.0.0-rc7"
+                "reference": "tags/4.0.0-rc8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/font-awesome.4.0.0-rc7.zip"
+                "url": "https://downloads.wordpress.org/plugin/font-awesome.4.0.0-rc8.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
