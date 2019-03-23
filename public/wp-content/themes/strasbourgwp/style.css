@@ -71,6 +71,12 @@
   overflow: hidden;
 }
 
+@media screen and (max-width: 767px){
+  #cdw-slider {
+      display: none;
+  }
+}
+
 #cdw-slides-list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -96,7 +102,7 @@
   margin: 5% 0 10% 0;
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 767px) {
 	.event-table-image img {
 		display: none;
 	}
@@ -130,4 +136,11 @@ a:focus {
 
 #site-header {
   position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#main {
+  margin-top: 100px;
 }
