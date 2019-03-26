@@ -134,9 +134,27 @@ a:focus {
 }
 
 @media screen and (max-width: 767px) {
-	.event-table-image img {
+	.event-table-image {
 		display: none;
 	}
+
+    .events-table tr {
+        display: flex;
+        flex-direction: column-reverse;
+        border-bottom: 1px solid #597EA9;
+    }
+
+    .events-table tr:nth-child(odd) {
+        background-color: rgba(49, 69, 93,0.1) ;
+    }
+
+    .events-table td {
+        border: 0px;
+    }
+
+    .events-table thead {
+        display: none;
+    }
 }
 
 .event-more-btn {
