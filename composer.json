@@ -18,7 +18,7 @@
         "wpackagist-plugin/wpforms-lite": "*",
         "wpackagist-plugin/wp-super-cache": "*",
         "wpackagist-plugin/shortpixel-image-optimiser": "*",
-        "wpackagist-plugin/wp-seopress": "*",
+        "wpackagist-plugin/wordpress-seo": "*",
         "wpackagist-plugin/events-manager": "*",
         "wpackagist-plugin/broken-link-checker": "*",
         "wpackagist-plugin/akismet": "*",
