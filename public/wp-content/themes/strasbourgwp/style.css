@@ -98,8 +98,8 @@
   height: 100%;
 }
 
-.event-table-image img {
-  margin: 5% 0 10% 0;
+.events-table td {
+    padding: 15px !important;
 }
 
 @media screen and (max-width: 767px) {
