@@ -102,6 +102,10 @@
     padding: 15px !important;
 }
 
+.events-table tbody tr:hover {
+    background-color: rgba(49, 69, 93,0.1) ;
+}
+
 @media screen and (max-width: 767px) {
 	.event-table-image img {
 		display: none;
