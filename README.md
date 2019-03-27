@@ -1,6 +1,8 @@
 # Strasbourg
 ## Openclassrooms project | Customize a WordPress theme
 
+![screenshot of the homepage](public/wp-content/themes/strasbourgwp/screenshot.jpg)
+
 I developed this site as part of my training as a web developer on [OpenClassrooms](https://openclassrooms.com).
 
 This is a fictitious showcase site for the city of Strasbourg.
